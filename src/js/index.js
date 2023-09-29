@@ -9,11 +9,6 @@ const catsConteiner = document.querySelector('#cat-info')
 const loader = document.querySelector('.loader')
 const error = document.querySelector('.error')
 
-// const breedSelect = new SlimSelect({
-//     select: document.querySelector('.breed-select'),
-//     events: 'change', changeBreed;
-//     })
-
 breedSelect.addEventListener('change', changeBreed)
 
 function showElement(element, show) {
