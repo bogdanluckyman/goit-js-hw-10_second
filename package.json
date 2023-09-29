@@ -5,7 +5,7 @@
   "homepage": "https://bogdanluckyman.github.io/goit-js-hw-10_second",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-10_secondn/"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-10_second/"
   },
   "repository": {
     "type": "git",
