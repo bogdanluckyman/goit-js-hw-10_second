@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .loader {
   transform: rotateZ(45deg);
   perspective: 1000px;
@@ -79,7 +83,6 @@
 
 .breed-select {
   max-width: 500px;
-  overflow-y: scroll;
 }
 
 body {

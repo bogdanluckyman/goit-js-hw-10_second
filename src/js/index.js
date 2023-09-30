@@ -1,8 +1,8 @@
-import { fetchBreeds, fetchCatByBreed } from './cat-api'
+import { fetchBreeds, fetchCatByBreed } from './cat-api';
 import Notiflix from 'notiflix';
-import SlimSelect from 'slim-select'
-import "/src/css/slimselect.css"
-
+import SlimSelect from 'slim-select';
+import "../css/slimselect.css";
+import "../css/style.css";
 
 const breedSelect = document.querySelector('.breed-select')
 const catsConteiner = document.querySelector('#cat-info')
@@ -54,10 +54,10 @@ fetchBreeds()
 
         breedSelect.insertAdjacentHTML('beforeend', options.join(''));
         new SlimSelect({
-            select: '#breed-select',
-            settings: {
-            placeholderText: 'Choose a breed',
-            },
+            select: '.breed-select'
+            // settings: {
+            // placeholderText: 'Choose a breed',
+            // },
         })
 })
 .catch(() => {
