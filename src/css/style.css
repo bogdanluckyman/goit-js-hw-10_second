@@ -79,13 +79,23 @@
   margin-top: 10px;
   font-size: large;
   width: 500px;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .breed-select {
   max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 body {
   color: black;
   background-color: tan;
+}
+
+.loader {
+  margin-left: auto;
+  margin-right: auto;
 }
